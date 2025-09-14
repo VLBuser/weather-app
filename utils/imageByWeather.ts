@@ -7,6 +7,7 @@ export const getImageByWeather = (weather: string): string => {
       return "/few-clouds.png";
     case "rain":
     case "light rain":
+    case "moderate rain":
       return "/rain.png";
     case "snow":
       return "/snow.png";
